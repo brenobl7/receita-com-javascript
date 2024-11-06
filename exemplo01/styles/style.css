@@ -1,0 +1,35 @@
+html {font-size: 20px; /* px significa "pixels": o tamanho da fonte base é agora de 10 pixels */
+  font-family: 'Verdana', sans-serif; /* este deve ser o nome da fonte que você obteve no Google Fonts */
+}
+
+h1 {
+  font-size: 60px;
+}
+
+p, li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+::selection {
+  color: black;
+  background: yellow;
+}
+
+a:hover {
+  color: blue;
+}
+
+.center {
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+}

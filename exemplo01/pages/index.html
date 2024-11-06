@@ -1,0 +1,52 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Receita de pão de queijo mineiro</title>
+	<link href="../styles/style.css" rel="stylesheet">
+</head>
+<body>
+	<h1 class="center">Receita de pão de queijo mineiro</h1>
+	<hr/>
+	<p> [
+		<a href="#ing">Ingredientes</a> |
+		<a href="#tempo">Tempo de preparo</a> |
+		<a href="#rend">Rendimento</a> |
+		<a href="#preparo">Modo de preparo</a> ]
+	</p>
+
+	<button id="botao_troca_fundo" onclick="trocaPlanoDeFundo()">Troca Fundo</button>
+	<button id="botao_troca_cores_texto" onclick="trocaCoresTexto()">Troca Cor Texto</button>
+
+	<select name="select_texto" id="select_texto" onchange=trocaTexto(this.value)>
+	<option value="texto_normal">Texto normal</option>
+	<option value="titulos_paragrafos">Títulos e parágrafos</option>
+	</select>
+
+
+	<a id="ing"><h3>Ingredientes</h3></a>
+		<ul>
+		<li> 4 copos de polvilho doce (500g) </li>
+		<li> Sal a gosto </li>
+		<li> 2 copos de leite (300ml) </li>
+		<li> 1 copo de óleo (150ml) </li>
+		<li> 2 ovos grandes </li>
+		<li> 4 copos de <a href="queijo.html">queijo minas</a> meia cura ralado </li>
+		<li> Óleo para untar </li>
+		</ul>
+
+	<a id="tempo"><h3>Tempo de preparo</h3></a>
+		Aproximadamente 30 minutos
+	
+	<a id="rend"><h3>Rendimento</h3></a>
+		5 porções
+	
+	<a id="preparo"><h3>Modo de preparo</h3></a>
+	<ul>
+		<li> Ferva a água e adicione o óleo, o sal, e o leite. </li>
+		<li> Misture o polvilho lentamente, até obter uma massa homogênea. </li>
+		<li> Espere esfriar e adicione os ovos e o queijo, amassando a massa. </li>
+		<li> Faça bolas pequenas e coloque numa forma. Leve ao fogo médio por 30 minutos </li>
+	</ul>
+</body>
+<script type="text/javascript" src="../scripts/main.js"></script>
+</html>
